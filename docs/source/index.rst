@@ -12,6 +12,7 @@ This is a simple library to help you serialize Python type names and call them u
    :caption: Contents:
 
    getting_started
+   examples
    api
    development
    requirements
