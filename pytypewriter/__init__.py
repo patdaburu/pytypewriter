@@ -8,5 +8,6 @@
 This is a simple library to help you serialize Python type names and call them
 up again when you need them.
 """
+from .errors import PyTypewriterException
 from .types import InvalidTypeException, pycls, pyfqn
 from .version import __version__, __release__

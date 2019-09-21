@@ -32,7 +32,8 @@ def pyfqn(obj) -> str:
     :param obj: the object
     :return: the fully-qualified type name
     """
-    return f"{obj.__class__.__module__}.{obj.__class__.__name__}"
+    _cls = obj if isinstance(obj, type) else type(obj)
+    return f"{_cls.__module__}.{_cls.__name__}"
 
 
 def pycls(fqn_: str) -> TypeVar:
