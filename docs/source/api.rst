@@ -19,6 +19,14 @@ pytypewriter.errors
     :undoc-members:
     :show-inheritance:
 
+pytypewriter.exchange
+---------------------
+
+.. automodule:: pytypewriter.exchange
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 pytypewriter.types
 ------------------
 
