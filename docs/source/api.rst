@@ -10,3 +10,21 @@ API Documentation
     :members:
     :undoc-members:
     :show-inheritance:
+
+pytypewriter.errors
+-------------------
+
+.. automodule:: pytypewriter.errors
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+pytypewriter.types
+------------------
+
+.. automodule:: pytypewriter.types
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
