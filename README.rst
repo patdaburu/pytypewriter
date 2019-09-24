@@ -7,9 +7,7 @@ call them up again when you need them.
 Project Features
 ----------------
 
--  `pytypewriter <http://www.comingsoon.net>`__
--  a starter `Click <http://click.pocoo.org/5/>`__ command-line
-   application
+-  `pytypewriter <https://github.com/patdaburu/pytypewriter>`__
 -  automated unit tests you can run with
    `pytest <https://docs.pytest.org/en/latest/>`__
 -  a `Sphinx <http://www.sphinx-doc.org/en/master/>`__ documentation
@@ -37,9 +35,6 @@ Resources
 Below are some handy resource links.
 
 -  `Project Documentation <http://pytypewriter.readthedocs.io/>`__
--  `Click <http://click.pocoo.org/5/>`__ is a Python package for
-   creating beautiful command line interfaces in a composable way with
-   as little code as necessary.
 -  `Sphinx <http://www.sphinx-doc.org/en/master/>`__ is a tool that
    makes it easy to create intelligent and beautiful documentation,
    written by Geog Brandl and licnsed under the BSD license.

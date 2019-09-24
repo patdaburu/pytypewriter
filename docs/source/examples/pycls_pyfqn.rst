@@ -3,7 +3,7 @@
 Using `pycls` and `pyfqn`
 -------------------------
 
-You can use :py:func:`pytypewriter.types.pyfqn` to get a fully-qualified
+You can use the :py:func:`pyfqn <pytypewriter.types.pyfqn>` function to get a fully-qualified
 type name for an object, or you can go the other direction and get the python
 `type` from a fully-qualified name.
 

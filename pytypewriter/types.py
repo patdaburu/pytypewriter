@@ -36,15 +36,15 @@ def pyfqn(obj) -> str:
     return f"{_cls.__module__}.{_cls.__name__}"
 
 
-def pycls(fqn_: str) -> TypeVar:
+def pycls(fqn: str) -> TypeVar:
     """
     Get the class to which a fully-qualified name (FQN) refers.
 
-    :param fqn_: the fully-qualified name of the class
+    :param fqn: the fully-qualified name of the class
     :return: the class described by the fully-qualified name (FQN)
     """
     # Split up the fqn (fully-qualified name) at the dots.
-    tokens = fqn_.split('.')
+    tokens = fqn.split('.')
     # Put the module name back together.
     modname = '.'.join(tokens[:-1])
     # Let's get the module in which
