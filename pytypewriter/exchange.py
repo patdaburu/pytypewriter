@@ -87,7 +87,7 @@ def load(data: Mapping[str, Any]) -> Any:
         )
     # Remove meta-information from the data.
     _data = {
-        k: v for k, v in data
+        k: v for k, v in data.items()
         if k not in ('__type__',)
     }
     # Let the class take if from here.
