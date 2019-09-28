@@ -8,3 +8,4 @@ Examples
    :caption: Contents:
 
    examples/pycls_pyfqn
+   examples/export_load
